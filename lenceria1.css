@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inconsolata:wdth,wght@88.7,200..900&display=swap');
+body{
+    margin: 0;
+    background-image: url(imagenes/Fondo\ de\ Pantalla\ Flores\ Femenino\ Crema.png);
+}
+.barra{
+    font-family: "Inconsolata", monospace;
+    font-size: 50px;
+    width: 100%;
+    border: solid;
+    border-radius: 30px;
+    color: rgb(242, 247, 245);
+    background-color: rgb(247, 141, 100);
+    padding: 80px 0;
+    height: 80px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 80px; /* Asegúrate de que el contenedor tenga una altura */
+  }
+h1{
+    margin: 0%;
+    text-align: center;
+    font-size: larger;
+    padding: -80px -20px;
+}
+h2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover img {
+    transform: scale(1.1);
+}
+.descripcion{
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px;
+}
